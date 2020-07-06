@@ -1,0 +1,12 @@
+---
+name: Testing and Linting
+on: [push]
+
+jobs:
+  test:
+    name: Linting
+    runs-on: ubuntu-latest
+    uses: brpaz/hadolint-action@master
+    steps:
+      - name: Hadolint linting
+        run: hadoling Dockerfile
