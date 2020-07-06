@@ -8,5 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Hadolint linting
-        run: hadoling Dockerfile
         uses: brpaz/hadolint-action@master
